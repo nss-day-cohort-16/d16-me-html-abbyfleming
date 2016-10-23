@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+
+
+body {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Rokkitt', serif;
+}
+
+a {
+	text-decoration: none;
+	color: #6795A1;
+}
+
+a:hover {
+	color: #C5A5A7;
+}
+
+hr {
+	border: 1px solid #f6f3ee;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+/* ----- HEADER ----- */
+
+header {
+	margin:50px 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h2, h3 {
+	margin-bottom: 0;
+}
+
+
+/*----- MAIN CONTENT -----*/
+
+main {
+	font-size: 1em;
+}
+
+.imgleftfloat {
+	float: left;
+	max-width: 40%;
+	margin: 0 15px 15px 0;
+}
+
+main ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#resources, #projects {
+	float: left;
+	margin-bottom: 20px;
+}
+
+#resources {
+	width: 30%;
+	margin-left: 20px;
+}
+
+#projects {
+	width: 60%;
+}
+
+
+
+/* ----- FOOTER ----- */
+
+footer {
+	margin: 20px 0;
+	text-align: center;
+	border-top: 1px solid #f6f3ee;
+	border-bottom: 1px solid #f6f3ee;
+	clear: both;
+
+}
+
+#social ul li{
+	display: inline;
+} 
+
+#social ul li a {
+	display: inline;
+	padding: 5px 15px;
+}
